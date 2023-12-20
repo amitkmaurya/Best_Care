@@ -321,7 +321,7 @@ h6,
 
 .testimonial-carousel .owl-item img {
     width: 120px;
-    height: 120px;
+    height: 120px !important;
 }
 .wvCpO .rating-review {
     min-height: 24px;
@@ -393,4 +393,69 @@ span.review-count {
 .wvCpO .rating-review {
     margin-top: 8px;
 }
+}
+.owl-carousel .owl-item img {
+    height: 250px;
+}
+.delivery-tag1 {
+    position: fixed;
+    top: 50%;
+    width: 40px;
+    height: 150px;
+    background: #06a3da;
+    z-index: 999;
+}
+.delivery-tag2 {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    width: 40px;
+    height: 150px;
+    background: #06a3da;
+    z-index: 999;
+}
+.delivery-tag {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 18px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+    transform: rotate(90deg);
+}
+@media (max-width: 769px) {
+    .delivery-tag1 {
+        position: fixed;
+        top: 50%;
+        width: 30px;
+        height: 110px;
+        background: #06a3da;
+        z-index: 999;
+    }
+    .delivery-tag2 {
+        position: fixed;
+        top: 50%;
+        right: 0;
+        width: 30px;
+        height: 110px;
+        background: #06a3da;
+        z-index: 999;
+    }
+    .delivery-tag {
+        display: block;
+        text-align: center;
+        padding: 12px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 12px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        z-index: 1;
+        transform: rotate(90deg);
+    }
 }
